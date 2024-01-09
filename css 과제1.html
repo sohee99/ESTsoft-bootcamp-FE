@@ -17,7 +17,9 @@
         }
         .container::after{
             display: block;
+            content: '';
             clear: both;
+            /*float 사용으로 가상요소 만듬! (이요소는 블록이어야한다.)*/
         }
         .container p{
             font-size: 13px;
