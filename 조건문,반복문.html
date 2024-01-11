@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조건문,반복문 공부</title>
+</head>
+<body>
+<script>
+    const age = parseInt(prompt("나이를 입력해주세요!"));
+    //자바스크립트는 ex) 50 숫자이자 문자열 (암묵적형변환)
+    if (age >= 18){
+        console.log("안녕하세요")
+    }
+    else if(age >=10){
+        console.log("안녕! 반가워 꼬마친구!")
+    }
+    else{
+        console.log("부럽다...")
+    }
+
+
+    const grade = prompt("성적을 입력해주세요!");
+    if(grade >= 90){
+        console.log("A")
+    }else if(grade >= 80){
+        console.log("B")
+    }else if(grade >= 70){
+        console.log("C")
+    }else if(grade >= 60){
+        console.log("D")
+    }else {
+        console.log("강해져서 돌아와라")
+    }
+
+    // const result = / console.log 감싸주면 됨!
+    const grade = prompt("성적을 입력해주세요!");
+    (grade >= 90)?console.log("A"):(grade >= 80)?console.log("B"):
+        (grade >= 70)?console.log("C"):(grade >= 60)?console.log("D"):
+            console.log("강해져서 돌아와라");
+
+
+    switch (new Date().getDay()) {
+        case 1:
+            document.write('월요일입니다.');
+            break;
+        case 2:
+            document.write('화요일입니다.');
+            break;
+        case 3:
+            document.write('수요일입니다.');
+            break;
+        case 4:
+            document.write('목요일입니다.');
+            break;
+        case 5:
+            document.write('금요일입니다.');
+            break;
+        default:
+            document.write('금금요일입니다. 주말이 뭐죠?');
+    }
+
+    const grade = prompt("성적을 입력해주세요!");
+    switch (true){
+        case grade >= 90:
+            console.log("A")
+            break;
+        case grade >= 80:
+            console.log("B")
+            break;
+        case grade >= 70:
+            console.log("C")
+            break;
+        case grade >= 60:
+            console.log("D")
+            break;
+        default:
+            console.log("강해져서 돌아와라");
+    }
+
+
+    const cars = ["BMW", "Volvo", "Saab", "Ford", "Flat", "Audi"];
+
+    let text = "";
+
+    // text = "" + "BMW"; > text += cars[0]
+
+    text += '<section><h2>' + cars[0] + '</h2></section>'
+    //<section><h2>BMW</h2></section>
+    text += '<section><h2>' + cars[1] + '</h2></section>'
+    //<section><h2>BMW</h2></section><section><h2>Volvo</h2></section>
+    text += '<section><h2>' + cars[2] + '</h2></section>'
+    text += '<section><h2>' + cars[3] + '</h2></section>'
+    text += '<section><h2>' + cars[4] + '</h2></section>'
+
+
+    const cars2 = ["BMW", "Volvo", "Saab", "Ford", "Flat", "Audi"];
+    let text2 = ''
+    for (let i = 0; i < cars2.length; i++) {
+        //let i = 0 초기화식! i<cars2.length(길이) 몇개의 데이터가 들어있는지!
+        text2 += '<section><h2>' + cars2[i] + '</h2></section>'
+        //true 면 안에 있는 코드를 계속 실행한다. false가 될때 끝난다.
+
+
+        증감이 있을땐 const 금지! 상수 변할 수 없는 값이기 때문에
+        for(let i = 1; i < 10; i++){
+            document.write(`${5} x ${i} = ${5*i} <br>`)
+            //template literals `역따옴표
+        }
+
+        for (var i = 2; i < 10; i++) {
+            for (var j = 1; j < 10; j++) {
+                document.write(`${i} X ${j} = ${i*j} <br>`);
+            }}
+</script>
+<script>
+    let i = 1;
+    while(i <= 10) {
+        i++;
+        if (i === 4) {
+            continue;
+        } else if (i === 7) {
+            continue;
+        }
+        console.log(i);
+    }
+    for (let i = 0; i < 20; i++) {
+        if (i < 13) continue;
+        console.log(i + '살은 청소년입니다.');
+    }
+
+    let str1 = 'hello';
+    let str2 = str1;
+    console.log(str2); // 'hello'
+
+    str1 = 'world';
+    console.log(str2);
+
+
+    arr1[0] = 10;
+    // arr1 = [10, 20];
+    console.log(arr2);
+
+    // 비교해보세요.
+    let value1 = 10;
+    let value2 = value1;
+    console.log(value2);
+
+    value1 = 20;
+    console.log(value2);
+
+</script>
+</body>
+</html>
