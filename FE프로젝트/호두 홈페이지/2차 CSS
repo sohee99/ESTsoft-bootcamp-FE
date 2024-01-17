@@ -1,0 +1,153 @@
+body{
+    width: 1920px;
+    margin: 0;
+    font-family: Pretendard-Regular;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+header section,
+main .home-screen{
+    display: flex;
+    align-items: center;
+    background: #F2E9D8;
+}
+header .nav,
+main .home-screen{
+    justify-content: space-between;
+}
+#Logo .hoduimg{
+    margin: 31px 756px 31px 320px
+}
+nav{
+    display: flex;
+    gap:30px;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+.down,
+.click{
+    background: #D97652;
+    width: 76px;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 33px 15px 31px;
+    margin: 26px 320px 26px 49px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Pretendard-Regular;
+}
+.nav .down{
+    margin: 26px 320px 26px 49px;
+}
+main .home-screen{
+    align-items: flex-start;
+}
+main .home-text{
+    margin: 200px 0 262px 320px
+}
+main .title{
+    margin: 0 0 40px ;
+    font-size: 48px;
+    line-height: 60px;
+}
+main .home-text p{
+    margin: 0 0 40px;
+    line-height: 20px;
+    width: 420px;
+}
+main .home-screen a{
+    display: block;
+    margin: 0;
+}
+main .home-screen .home-img{
+    margin-right: 320px;
+    margin-top: 32px;
+    position: relative;
+    bottom: -4px;
+}
+main .home-screen2{
+    display: flex;
+}
+main .home-screen2 .home-img2{
+    margin: 70px 60px 120px 310px;
+}
+main .home-screen2 .content-text,
+main .bottom_screen h2{
+    font-size: 36px;
+    line-height: 45px;
+    margin: 172px 320px 30px 0;
+}
+main .home-screen2 p{
+    margin: 0;
+    line-height: 20px;
+}
+main .post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .post-text .subject{
+    font-size: 48px;
+    line-height: 60px;
+    color: #D97652;
+    margin: 0 0 40px;
+}
+main .post-text p{
+    margin: 0;
+    text-align: center;
+}
+main .post-text span{
+    color: #D97652;
+}
+main .posts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 88px 322px 60px 320px;
+}
+main .post .continue{
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 28px;
+}
+main .post .click{
+    margin: 0 0 80px;
+    padding: 15px 29px;
+    width: 143px;
+}
+main hr{
+    margin: 0 322px 0 320px;
+    color: #C4C4C4;
+
+}
+main .bottom_screen{
+    margin-left: 320px;
+}
+main .bottom_screen .map_text{
+    margin:68px 0 20px;
+}
+main .bottom_screen .address{
+    margin: 20px 0 48px;
+    color: #606367;
+}
+main .bottom_screen .email_bar{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 320px 0 0;
+    padding: 50px 751px 51px 58px;
+    background-color: #263140;
+    border-radius: 30px;color: white;
+}
+main .bottom_screen h2{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
