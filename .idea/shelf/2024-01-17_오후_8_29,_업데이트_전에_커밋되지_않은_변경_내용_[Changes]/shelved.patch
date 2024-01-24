@@ -1,0 +1,542 @@
+Index: [과제] 로그인 과제.html
+===================================================================
+diff --git a/[과제] 로그인 과제.html b/[과제] 로그인 과제.html
+deleted file mode 100644
+--- a/[과제] 로그인 과제.html	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
++++ /dev/null	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
+@@ -1,28 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="ko">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport"
+-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+-    <title>로그인</title>
+-
+-</head>
+-<header>
+-    <h1>로그인</h1>
+-</header>
+-<body>
+-<form action="">
+-<p>아이디와 비밀번호를 입력하고 로그인하세요</p>
+-    <label>
+-        아이디<input type="text" required>
+-    </label>
+-    <label>
+-        비밀번호<input type="password" required>
+-    </label>
+-    <label>
+-        <input type="checkbox"> 아이디 저장
+-    </label>
+-    <button type="submit">로그인</button>
+-</form>
+-</body>
+-</html>
+\ No newline at end of file
+Index: 게시글 글목록 과제.html
+===================================================================
+diff --git a/게시글 글목록 과제.html b/게시글 글목록 과제.html
+deleted file mode 100644
+--- a/게시글 글목록 과제.html	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
++++ /dev/null	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
+@@ -1,33 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="ko">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport"
+-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+-    <title>게시판 글목록</title>
+-    <style>
+-        table, th, td{
+-            border: 1px solid black;
+-        }
+-        table{
+-            border-collapse: collapse;
+-        }
+-        td {
+-            text-align: center;
+-        }
+-    </style>
+-</head>
+-<body>
+-<table>
+-    <caption>글목록</caption>
+-    <thead>
+-        <tr><th>번호</th><th>제목</th><th>작성자</th><th>작성일</th><th>조회수</th></tr>
+-    </thead>
+-    <tbody>
+-        <tr><td>2</td><td><a href="" target="_blank">위니브에서 수강생분들에게 알려드립니다.</a></td><td>홍길동</td><td><time datetime="2023-04-25">2023.01.25</time></td><td>999</td></tr>
+-        <tr><td>1</td><td><a href="" target="_blank">이스트소프트 백엔드 개발 오르미 1기 모집</a></td><td>홍길동</td><td><time datetime="2023-01-25">2023.01.25</time></td><td>999</td></tr>
+-    </tbody>
+-</table>
+-</body>
+-</html>
+-
+Index: 게시판 글조회 과제.html
+===================================================================
+diff --git a/게시판 글조회 과제.html b/게시판 글조회 과제.html
+deleted file mode 100644
+--- a/게시판 글조회 과제.html	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
++++ /dev/null	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
+@@ -1,53 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="ko">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport"
+-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+-    <title>이스트소프트 백엔드 개발 오르미 1기 모집</title>
+-    <style>
+-
+-    </style>
+-</head>
+-<body>
+-<header>
+-<h1>글 조회</h1>
+-</header>
+-<hr>
+-<section>
+-    <h2>이스트소프트 백엔드 개발 오르미 1기 모집</h2>
+-    <p>작성자: 홍길동 <br> 작성일: 2023.04.24 <br> 조회수: 1020<br></p>
+-    <img src="img.png" alt="">
+-    <p><strong>이스트 소프트 백엔드 개발 오르미 1기</strong>모집</p>
+-    <section>
+-        <h3>오르미란?</h3>
+-            <p>
+-            이스트소프트 백엔드 개발자 부트캠프 참여자를 일컫는 말입니다.<br> 산, 봉우리란 뜻의 오름에서 착안하여 <strong>교육을 통해 개발 실력을 올리자는 의미</strong>를 담고 있습니다.<br> 이스트소프트와 함께 백엔드 개발이란 오름⛰을 넘어 정상에 함께 올라 보시죠!
+-            </p>
+-    </section>
+-    <section>
+-        <h3>이런 분이 함께해요</h3>
+-            <ul>
+-            <li>비전공자이지만 백엔드 개발자가 되고 싶은 사람</li>
+-            <li>이스트소프트 실무 노하우에 대해 알고 싶은 사람</li>
+-            <li>전공자이지만 실무와 관련된 프로젝트를 경험하고 싶은 사람</li>
+-            <li>이스트소프트와 함께 백엔드 개발 커리어를 쌓고 싶은 사람</li>
+-        </ul>
+-    </section>
+-    <section>
+-        <h3><strong>선정 과정</strong></h3>
+-            <ol type="1">
+-            <li>서류 접수</li>
+-            <li>서류 심사</li>
+-            <li>사전 테스트 진행</li>
+-            <li>합격자 발표</li>
+-            <li>내일배움카드 발급</li>
+-            <li>교육 시작</li>
+-            </ol>
+-    </section>
+-</section>
+-<footer>
+-<a href="https://www.estsoft.ai/" target="_blank">이스트소프트 바로가기</a>
+-</footer>
+-</body>
+-</html>
+\ No newline at end of file
+Index: css 과제1.html
+===================================================================
+diff --git a/css 과제1.html b/css 과제1.html
+deleted file mode 100644
+--- a/css 과제1.html	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
++++ /dev/null	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
+@@ -1,75 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>위니브 로그인 창</title>
+-    <style>
+-        .container{
+-            width: 350px;
+-            height: 140px;
+-            padding: 0 16px 13px 16px;
+-            /* 위,오,아래,왼쪽 */
+-            border: 1px solid #DBDBDB;
+-            border-radius: 5px;
+-            box-sizing: border-box;
+-        }
+-        .container::after{
+-            display: block;
+-            content: '';
+-            clear: both;
+-            /*float 사용으로 가상요소 만듬! (이요소는 블록이어야한다.)*/
+-        }
+-        .container p{
+-            font-size: 13px;
+-            margin-bottom: 13px;
+-        }
+-        .로그인{
+-            display: block;
+-            padding: 10px;
+-            width: 318px;
+-            background-color: #711BFF;
+-            font-size: 12px;
+-            margin-bottom: 13px;
+-            text-align: center;
+-            /* 글자 가운데 놓기! */
+-            border-radius: 4px;
+-            border:none;
+-        }
+-        .로그인 a{
+-            text-decoration: none;
+-            color: white;
+-            font-size: 16px;
+-        }
+-        .find{
+-            float: left;
+-        }
+-        .find a,
+-        .회원가입 a{
+-            text-decoration: none;
+-            /* 앵커 줄없애!!!!! */
+-            color: #767676;
+-            font-size: 12px;
+-        }
+-        .회원가입{
+-            float: right;
+-        }
+-    </style>
+-</head>
+-<body>
+-<div class="container">
+-    <p>더 편리해진 위니브에 오신 것을 환영합니다.</p>
+-    <button class="로그인">
+-        <img src="weniv-logo%20(1).png"><a href=""> 로그인</a>
+-    </button>
+-    <div class="find">
+-        <img src="icon-lock.png"><a href="" target="_blank">아이디</a>ㅣ<a href="" target="_blank">비밀번호찾기</a>
+-        <!-- ㅣ는 어떻게 하는거지.... 강사님께 여쭈어보는걸로..-->
+-    </div>
+-    <div class="회원가입">
+-        <img src="icon-user.png"><a href="" target="_blank">회원가입</a>
+-    </div>
+-</div>
+-</body>
+-</html>
+\ No newline at end of file
+Index: DOM.html
+===================================================================
+diff --git a/DOM.html b/DOM.html
+deleted file mode 100644
+--- a/DOM.html	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
++++ /dev/null	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
+@@ -1,32 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>stopPropagation()코드이해</title>
+-</head>
+-<body>
+-<h1>나의 todo list</h1>
+-<p>1. 오늘 저녁에는 부대찌게를 끓여 먹겠다.<button type="button">삭제</button></p>
+-<p>2. 후식으로 슈팅스타를 먹겠다.<button type="button">삭제</button></p>
+-<p>3. 자기 전에 반드시 내일 아침 메뉴를 생각해두겠다.<button type="button">삭제</button></p>
+-<script>
+-    function showAlert(event) {
+-        alert(event.currentTarget.textContent);
+-    }
+-    function deleteItem(event) {
+-        event.stopPropagation();
+-        const isConfirmed = confirm('삭제하시겠습니까?');
+-        if (isConfirmed) {
+-            const paragraph = event.currentTarget.parentElement;
+-            paragraph.parentNode.removeChild(paragraph);
+-        }
+-    }
+-    const paragraphs = document.querySelectorAll('p');
+-    paragraphs.forEach(paragraph => {
+-        paragraph.addEventListener('click', showAlert);
+-    });
+-</script>
+-</body>
+-</html>
+\ No newline at end of file
+Index: 조건문,반복문.html
+===================================================================
+diff --git a/조건문,반복문.html b/조건문,반복문.html
+deleted file mode 100644
+--- a/조건문,반복문.html	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
++++ /dev/null	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
+@@ -1,140 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="ko">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>조건문,반복문 공부</title>
+-</head>
+-<body>
+-<script>
+-    const age = parseInt(prompt("나이를 입력해주세요!"));
+-    //자바스크립트는 ex) 50 숫자이자 문자열 (암묵적형변환)
+-    if (age >= 18){
+-        console.log("안녕하세요")
+-    }
+-    else if(age >=10){
+-        console.log("안녕! 반가워 꼬마친구!")
+-    }
+-    else{
+-        console.log("부럽다...")
+-    }
+-</script>
+-<script>
+-    const grade = prompt("성적을 입력해주세요!");
+-    if (grade >= 90) {
+-        console.log("A")
+-    } else if (grade >= 80) {
+-        console.log("B")
+-    } else if (grade >= 70) {
+-        console.log("C")
+-    } else if (grade >= 60) {
+-        console.log("D")
+-    } else {
+-        console.log("강해져서 돌아와라")
+-    }
+-</script>
+-<!--    // const result = / console.log 감싸주면 됨!-->
+-<!--    const grade = prompt("성적을 입력해주세요!");-->
+-<!--    (grade >= 90) ? console.log("A") : (grade >= 80) ? console.log("B") :-->
+-<!--        (grade >= 70) ? console.log("C") : (grade >= 60) ? console.log("D") :-->
+-<!--            console.log("강해져서 돌아와라");-->
+-
+-    <script>
+-        switch (new Date().getDay()) {
+-        case 1:
+-        document.write('월요일입니다.');
+-        break;
+-        case 2:
+-        document.write('화요일입니다.');
+-        break;
+-        case 3:
+-        document.write('수요일입니다.');
+-        break;
+-        case 4:
+-        document.write('목요일입니다.');
+-        break;
+-        case 5:
+-        document.write('금요일입니다.');
+-        break;
+-        default:
+-        document.write('금금요일입니다. 주말이 뭐죠?');
+-    }
+-    </script>
+-        <script>
+-            const grade = prompt("성적을 입력해주세요!");
+-            switch (true){
+-            case grade >= 90:
+-            console.log("A")
+-            break;
+-            case grade >= 80:
+-            console.log("B")
+-            break;
+-            case grade >= 70:
+-            console.log("C")
+-            break;
+-            case grade >= 60:
+-            console.log("D")
+-            break;
+-            default:
+-            console.log("강해져서 돌아와라");
+-        }
+-        </script>
+-<script>
+-                const cars2 = ["BMW", "Volvo", "Saab", "Ford", "Flat", "Audi"];
+-                let text2 = ''
+-                for (let i = 0; i < cars2.length; i++) {
+-                    //let i = 0 초기화식! i<cars2.length(길이) 몇개의 데이터가 들어있는지!
+-                    text2 += '<section><h2>' + cars2[i] + '</h2></section>'
+-                        //true 면 안에 있는 코드를 계속 실행한다. false가 될때 끝난다.
+-</script>
+-<!--                        증감이 있을땐 const 금지 !상수 변할 수 없는 값이기 때문에-->
+-<!--                    for (let i = 1; i < 10; i++) {-->
+-<!--                        document.write(`${5} x ${i} = ${5 * i} <br>`)-->
+-<!--                        //template literals `역따옴표-->
+-<!--                    }-->
+-
+-<!--                    for (var i = 2; i < 10; i++) {-->
+-<!--                        for (var j = 1; j < 10; j++) {-->
+-<!--                            document.write(`${i} X ${j} = ${i * j} <br>`);-->
+-<!--                        }-->
+-<!--                    }-->
+-<script>
+-    let i = 1;
+-    while(i <= 10) {
+-        i++;
+-        if (i === 4) {
+-            continue;
+-        } else if (i === 7) {
+-            continue;
+-        }
+-        console.log(i);
+-    }
+-    for (let i = 0; i < 20; i++) {
+-        if (i < 13) continue;
+-        console.log(i + '살은 청소년입니다.');
+-    }
+-
+-    let str1 = 'hello';
+-    let str2 = str1;
+-    console.log(str2); // 'hello'
+-
+-    str1 = 'world';
+-    console.log(str2);
+-
+-
+-    arr1[0] = 10;
+-    // arr1 = [10, 20];
+-    console.log(arr2);
+-
+-    // 비교해보세요.
+-    let value1 = 10;
+-    let value2 = value1;
+-    console.log(value2);
+-
+-    value1 = 20;
+-    console.log(value2);
+-
+-</script>
+-</body>
+-</html>
+\ No newline at end of file
+Index: 강사님 코드 - 로그인창.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"ko\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>위니브 로그인</title>\r\n    <style>\r\n        /* common css */\r\n        * {\r\n            box-sizing: border-box;\r\n        }\r\n\r\n        body {\r\n            line-height: 15px;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n        }\r\n\r\n        .txt-hide {\r\n            clip-path: inset(50%);\r\n            width: 1px;\r\n            height: 1px;\r\n            margin: 0px;\r\n            overflow: hidden;\r\n        }\r\n\r\n        /* common css end */\r\n\r\n\r\n        .cont-login {\r\n            margin: 20px auto;\r\n            width: 350px;\r\n            padding: 18px 15px 17px;\r\n            border: 1px solid #DBDBDB;\r\n            border-radius: 5px;\r\n        }\r\n\r\n        .cont-login .txt-login {\r\n            font-size: 12px;\r\n            color: black;\r\n            margin-bottom: 16px;\r\n        }\r\n\r\n        .cont-login .link-login {\r\n            display: block;\r\n            padding: 13px 0 12px;\r\n            background: #711BFF;\r\n            border-radius: 4px;\r\n            color: #fff;\r\n            font-size: 12px;\r\n            margin-bottom: 17px;\r\n            text-align: center;\r\n            font-weight: 500;\r\n        }\r\n\r\n        .link-login .img-login {\r\n            width: 57px;\r\n            height: 11px;\r\n            margin-right: 8px;\r\n        }\r\n\r\n        .cont-links {\r\n            display: flex;\r\n            justify-content: space-between;\r\n        }\r\n\r\n        .cont-links img {\r\n            vertical-align: bottom;\r\n        }\r\n\r\n        /* 가상요소를 만들어 점을 그려줍니다. */\r\n        .find .link-id::after {\r\n            display: inline-block;\r\n            content: '';\r\n            width: 1px;\r\n            height: 11px;\r\n            background: #767676;\r\n            /* 상하 정렬을 조정해줍니다. 오직 inline, inline-block 요소에서만 작동합니다. */\r\n            vertical-align: -1px;\r\n            margin-left: 5px;\r\n        }\r\n\r\n        .find .link-pw {\r\n            margin: 0;\r\n        }\r\n\r\n        .find [class^=link],\r\n        .join [class^=link] {\r\n            color: #767676;\r\n            font-size: 12px;\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n<article class=\"cont-login\">\r\n    <h2 class=\"txt-hide\">위니브 로그인</h2>\r\n    <p class=\"txt-login\">더 편리해진 위니브에 오신 것을 환영합니다.</p>\r\n    <a href=\"#none\" class=\"link-login\"><img src=\"img_login/weniv-logo.png\" alt=\"위니브\" class=\"img-login\">로그인</a>\r\n    <div class=\"cont-links\">\r\n        <div class=\"find\">\r\n            <img src=\"img_login/icon-lock.png\" alt=\"\" class=\"img-find\">\r\n            <a href=\"#none\" class=\"link-id\">아이디</a>\r\n            <a href=\"#none\" class=\"link-pw\">비밀번호찾기</a>\r\n        </div>\r\n        <div class=\"join\">\r\n            <img src=\"img_login/icon-user.png\" alt=\"\" class=\"img-join\">\r\n            <a href=\"#none\" class=\"link-join\">회원가입</a>\r\n        </div>\r\n    </div>\r\n</article>\r\n</body>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/강사님 코드 - 로그인창.html b/강사님 코드 - 로그인창.html
+--- a/강사님 코드 - 로그인창.html	(revision b87a2f33c412d9486ab59ddb9c5efda157a272a3)
++++ b/강사님 코드 - 로그인창.html	(date 1705490935400)
+@@ -7,44 +7,34 @@
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>위니브 로그인</title>
+     <style>
+-        /* common css */
+-        * {
++        *{
+             box-sizing: border-box;
+         }
+-
+-        body {
++        body{
+             line-height: 15px;
+         }
+-
+-        a {
++        a{
+             text-decoration: none;
+         }
+-
+-        .txt-hide {
+-            clip-path: inset(50%);
+-            width: 1px;
+-            height: 1px;
+-            margin: 0px;
+-            overflow: hidden;
+-        }
+-
+-        /* common css end */
+-
+-
+-        .cont-login {
++        /*.txt-hide{*/
++        /*    clip-path: inset(50%);*/
++        /*    width: 1px;*/
++        /*    height: 1px;*/
++        /*    margin: 0px;*/
++        /*    overflow: hidden;*/
++        /*}*/
++        .cont-login{
+             margin: 20px auto;
+             width: 350px;
+             padding: 18px 15px 17px;
+             border: 1px solid #DBDBDB;
+             border-radius: 5px;
+         }
+-
+-        .cont-login .txt-login {
++        .cont-login .txt-login{
+             font-size: 12px;
+-            color: black;
++            color:black;
+             margin-bottom: 16px;
+         }
+-
+         .cont-login .link-login {
+             display: block;
+             padding: 13px 0 12px;
+@@ -56,38 +46,27 @@
+             text-align: center;
+             font-weight: 500;
+         }
+-
+         .link-login .img-login {
+             width: 57px;
+             height: 11px;
+             margin-right: 8px;
+         }
+-
+         .cont-links {
+             display: flex;
+             justify-content: space-between;
+         }
+-
+-        .cont-links img {
+-            vertical-align: bottom;
+-        }
+-
+-        /* 가상요소를 만들어 점을 그려줍니다. */
+         .find .link-id::after {
+             display: inline-block;
+             content: '';
+             width: 1px;
+             height: 11px;
+             background: #767676;
+-            /* 상하 정렬을 조정해줍니다. 오직 inline, inline-block 요소에서만 작동합니다. */
+             vertical-align: -1px;
+             margin-left: 5px;
+         }
+-
+         .find .link-pw {
+             margin: 0;
+         }
+-
+         .find [class^=link],
+         .join [class^=link] {
+             color: #767676;
+@@ -98,7 +77,7 @@
+ 
+ <body>
+ <article class="cont-login">
+-    <h2 class="txt-hide">위니브 로그인</h2>
++<!--    <h2 class="txt-hide">위니브 로그인</h2>-->
+     <p class="txt-login">더 편리해진 위니브에 오신 것을 환영합니다.</p>
+     <a href="#none" class="link-login"><img src="img_login/weniv-logo.png" alt="위니브" class="img-login">로그인</a>
+     <div class="cont-links">
+Index: 호두
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/호두 b/호두
+new file mode 100644
+--- /dev/null	(date 1705490935401)
++++ b/호두	(date 1705490935401)
+@@ -0,0 +1,7 @@
++    body{
++        margin: 0;
++    }
++    #container{
++
++    }
++    
+\ No newline at end of file

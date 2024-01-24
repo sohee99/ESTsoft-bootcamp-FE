@@ -1,0 +1,486 @@
+Index: 1만시간법칙.css
+===================================================================
+diff --git a/1만시간법칙.css b/1만시간법칙.css
+deleted file mode 100644
+--- a/1만시간법칙.css	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
++++ /dev/null	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
+@@ -1,116 +0,0 @@
+-body{
+-    margin: 0;
+-}
+-.container{
+-    display: flex;
+-    justify-content: center;
+-    flex-direction: column;
+-    background-color: #5B2386;
+-    }
+-    .제목 .시간법칙{
+-    display: flex;
+-    position: absolute;
+-    }
+-    .제목 .시계 {
+-        display: flex;
+-        position: relative;
+-        width: 261px;
+-        height: 265px;
+-    }
+-    .제목 {
+-        display: flex;
+-        justify-content: center;
+-        align-items: center;
+-        margin-bottom: 50px;
+-        margin-top: 50px;
+-    }
+-    .인트로0{
+-        display: flex;
+-        align-items: center;
+-        flex-direction: column;
+-        margin-bottom: 20px;
+-    }
+-    .인트로0 .인트로1{
+-        width: 486px;
+-        margin-bottom: 50px;
+-    }
+-    .인트로0 .인트로5{
+-        display: flex;
+-        justify-content: center;
+-        text-align: center;
+-        margin-bottom: 50px;
+-        position: relative;
+-    }
+-    .인트로0 .인트로2{
+-        padding-top: 35px;
+-        width: 430px;
+-    }
+-    .인트로0 .인트로3{
+-        width: 100%;
+-        height: auto;
+-    }
+-    .인트로0 .인트로-전문가{
+-        position: absolute;
+-        font-size: 18px;
+-        line-height: 1.8;
+-        color: #FFFFFF;
+-        margin: auto;
+-    }
+-    .인트로-전문가 .강조{
+-        font-size: 24px;
+-}
+-    .첫화면 .finds{
+-        display: flex;
+-        flex-direction: column;
+-        align-items: center;
+-        font-size: 18px;
+-        margin-bottom: 70px;
+-        color: #FFFFFF;
+-    }
+-    .finds .전문가{
+-        margin-bottom: 20px;
+-    }
+-    .finds .프로그래밍{
+-        font-size: 18px;
+-        border: none;
+-        border-radius: 7px;
+-        width: 200px;
+-        height: 26px;
+-        padding: 15px 20px;
+-        margin: 0 15px;
+-    }
+-    .finds .시간2{
+-        font-size: 18px;
+-        border: none;
+-        border-radius: 7px;
+-        width: 200px;
+-        height: 26px;
+-        padding: 15px 20px;
+-        margin: 0 15px 20px;
+-    }
+-    .첫화면 .버튼{
+-        display: flex;
+-        flex-direction: column;
+-        justify-items: center;
+-        margin-bottom: 80px;
+-    }
+-    .첫화면 .button1{
+-        display: flex;
+-        justify-content: center;
+-        position: relative;
+-    }
+-    .첫화면 .button2{
+-        display: flex;
+-        align-items: center;
+-        font-size: 24px;
+-        color: #5B2386;
+-        background: #FCEE21;
+-        border: none;
+-        border-radius: 56px;
+-        padding: 10px 40px;
+-    }
+-    .첫화면 .click{
+-        position: absolute;
+-        right: -460px;
+-        bottom: -30px;
+-    }
+Index: css 과제1.html
+===================================================================
+diff --git a/css 과제1.html b/css 과제1.html
+deleted file mode 100644
+--- a/css 과제1.html	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
++++ /dev/null	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
+@@ -1,75 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>위니브 로그인 창</title>
+-    <style>
+-        .container{
+-            width: 350px;
+-            height: 140px;
+-            padding: 0 16px 13px 16px;
+-            /* 위,오,아래,왼쪽 */
+-            border: 1px solid #DBDBDB;
+-            border-radius: 5px;
+-            box-sizing: border-box;
+-        }
+-        .container::after{
+-            display: block;
+-            content: '';
+-            clear: both;
+-            /*float 사용으로 가상요소 만듬! (이요소는 블록이어야한다.)*/
+-        }
+-        .container p{
+-            font-size: 13px;
+-            margin-bottom: 13px;
+-        }
+-        .로그인{
+-            display: block;
+-            padding: 10px;
+-            width: 318px;
+-            background-color: #711BFF;
+-            font-size: 12px;
+-            margin-bottom: 13px;
+-            text-align: center;
+-            /* 글자 가운데 놓기! */
+-            border-radius: 4px;
+-            border:none;
+-        }
+-        .로그인 a{
+-            text-decoration: none;
+-            color: white;
+-            font-size: 16px;
+-        }
+-        .find{
+-            float: left;
+-        }
+-        .find a,
+-        .회원가입 a{
+-            text-decoration: none;
+-            /* 앵커 줄없애!!!!! */
+-            color: #767676;
+-            font-size: 12px;
+-        }
+-        .회원가입{
+-            float: right;
+-        }
+-    </style>
+-</head>
+-<body>
+-<div class="container">
+-    <p>더 편리해진 위니브에 오신 것을 환영합니다.</p>
+-    <button class="로그인">
+-        <img src="weniv-logo%20(1).png"><a href=""> 로그인</a>
+-    </button>
+-    <div class="find">
+-        <img src="icon-lock.png"><a href="" target="_blank">아이디</a>ㅣ<a href="" target="_blank">비밀번호찾기</a>
+-        <!-- ㅣ는 어떻게 하는거지.... 강사님께 여쭈어보는걸로..-->
+-    </div>
+-    <div class="회원가입">
+-        <img src="icon-user.png"><a href="" target="_blank">회원가입</a>
+-    </div>
+-</div>
+-</body>
+-</html>
+\ No newline at end of file
+Index: 1만 시간의 법칙.html
+===================================================================
+diff --git a/1만 시간의 법칙.html b/1만 시간의 법칙.html
+deleted file mode 100644
+--- a/1만 시간의 법칙.html	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
++++ /dev/null	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
+@@ -1,84 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="ko">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>1만 시간의 법칙</title>
+-    <link rel="stylesheet" href="1만시간법칙.css">
+-</head>
+-<body>
+-    <section class="container">
+-        <div class="첫화면">
+-            <div class="제목">
+-                <img class="시계" src="Frame%2012.png" alt="">
+-                <img class="시간법칙" src="Frame.png" alt="1만시간의 법칙">
+-            </div>
+-            <div class="인트로0">
+-                <img class="인트로1" src="“연습은%20어제의%20당신보다%20당신을%20더%20낫게%20만든다.”.png" alt="">
+-                <div class="인트로5">
+-                 <div class="인트로2">
+-                    <img class="인트로3" src="따움표.png" alt="따옴표">
+-                 </div>
+-                    <p class="인트로-전문가"><span class="강조"><strong>1만 시간의 법칙</strong></span>은<br>어떤 분야의 전문가가 되기 위해서는<br>최소한 1만 시간의 훈련이 필요하다는 법칙이다.</p>
+-                </div>
+-            </div>
+-            <div class="finds">
+-                <div class="전문가">
+-                    <span>나는</span>
+-                    <input class="프로그래밍" type="text" alt="예)프로그래밍" placeholder="예)프로그래밍">
+-                    <span>전문가가 될 것이다.</span>
+-                </div>
+-                <div class="시간">
+-                    <span>그래서 앞으로 매일 하루에</span>
+-                    <input class="시간2" type="text" alt="예)5" placeholder="예)5">
+-                    <span>시간씩 훈련할 것이다.</span>
+-                </div>
+-            </div>
+-            <div class="버튼">
+-                <div class="button1">
+-                    <button class="button2">나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
+-                        <div class="click">
+-                            <img src="Frame%2011.png" alt="클릭">
+-                        </div>
+-                </div>
+-            </div>
+-        </div>
+-        <div class="답변">
+-            <div class="first">
+-                <div>
+-                    당신은<span></span> 전문가가 되기 위해서
+-                </div>
+-                <div>
+-                    대략<span></span>일 이상 훈련하셔야 합니다!:)
+-                </div>
+-            </div>
+-            <div class="go">
+-                <div>
+-                    <button>훈련하러 가기 GO!GO!</button>
+-                </div>
+-                <div>
+-                    <button>공유하기</button>
+-                </div>
+-            </div>
+-        </div>
+-    </section>
+-    <section id="modal">
+-        <div class="modal1">
+-            <h1>화이팅!!♥♥♥</h1>
+-            <h2>당신의 꿈을 응원합니다!</h2>
+-        </div>
+-        <div class="lion">
+-            <img src="라이캣.png" alt="라이캣">
+-        </div>
+-        <button>종료하고 진짜 훈련하러 가기 GO!GO!</button>
+-    </section>
+-    <footer>
+-        <div class="로고">
+-            <img src="위니브.png" alt="위니브">
+-        </div>
+-        <p>※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 Weniv에 있습니다.</p>
+-        <p>수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다</p>
+-    </footer>
+-</body>
+-</html>
+\ No newline at end of file
+Index: DOM.html
+===================================================================
+diff --git a/DOM.html b/DOM.html
+deleted file mode 100644
+--- a/DOM.html	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
++++ /dev/null	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
+@@ -1,32 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>stopPropagation()코드이해</title>
+-</head>
+-<body>
+-<h1>나의 todo list</h1>
+-<p>1. 오늘 저녁에는 부대찌게를 끓여 먹겠다.<button type="button">삭제</button></p>
+-<p>2. 후식으로 슈팅스타를 먹겠다.<button type="button">삭제</button></p>
+-<p>3. 자기 전에 반드시 내일 아침 메뉴를 생각해두겠다.<button type="button">삭제</button></p>
+-<script>
+-    function showAlert(event) {
+-        alert(event.currentTarget.textContent);
+-    }
+-    function deleteItem(event) {
+-        event.stopPropagation();
+-        const isConfirmed = confirm('삭제하시겠습니까?');
+-        if (isConfirmed) {
+-            const paragraph = event.currentTarget.parentElement;
+-            paragraph.parentNode.removeChild(paragraph);
+-        }
+-    }
+-    const paragraphs = document.querySelectorAll('p');
+-    paragraphs.forEach(paragraph => {
+-        paragraph.addEventListener('click', showAlert);
+-    });
+-</script>
+-</body>
+-</html>
+\ No newline at end of file
+Index: 조건문,반복문.html
+===================================================================
+diff --git a/조건문,반복문.html b/조건문,반복문.html
+deleted file mode 100644
+--- a/조건문,반복문.html	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
++++ /dev/null	(revision 6458d1234197edbdd35aba06649e8e8072d4d829)
+@@ -1,140 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="ko">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>조건문,반복문 공부</title>
+-</head>
+-<body>
+-<script>
+-    const age = parseInt(prompt("나이를 입력해주세요!"));
+-    //자바스크립트는 ex) 50 숫자이자 문자열 (암묵적형변환)
+-    if (age >= 18){
+-        console.log("안녕하세요")
+-    }
+-    else if(age >=10){
+-        console.log("안녕! 반가워 꼬마친구!")
+-    }
+-    else{
+-        console.log("부럽다...")
+-    }
+-</script>
+-<script>
+-    const grade = prompt("성적을 입력해주세요!");
+-    if (grade >= 90) {
+-        console.log("A")
+-    } else if (grade >= 80) {
+-        console.log("B")
+-    } else if (grade >= 70) {
+-        console.log("C")
+-    } else if (grade >= 60) {
+-        console.log("D")
+-    } else {
+-        console.log("강해져서 돌아와라")
+-    }
+-</script>
+-<!--    // const result = / console.log 감싸주면 됨!-->
+-<!--    const grade = prompt("성적을 입력해주세요!");-->
+-<!--    (grade >= 90) ? console.log("A") : (grade >= 80) ? console.log("B") :-->
+-<!--        (grade >= 70) ? console.log("C") : (grade >= 60) ? console.log("D") :-->
+-<!--            console.log("강해져서 돌아와라");-->
+-
+-    <script>
+-        switch (new Date().getDay()) {
+-        case 1:
+-        document.write('월요일입니다.');
+-        break;
+-        case 2:
+-        document.write('화요일입니다.');
+-        break;
+-        case 3:
+-        document.write('수요일입니다.');
+-        break;
+-        case 4:
+-        document.write('목요일입니다.');
+-        break;
+-        case 5:
+-        document.write('금요일입니다.');
+-        break;
+-        default:
+-        document.write('금금요일입니다. 주말이 뭐죠?');
+-    }
+-    </script>
+-        <script>
+-            const grade = prompt("성적을 입력해주세요!");
+-            switch (true){
+-            case grade >= 90:
+-            console.log("A")
+-            break;
+-            case grade >= 80:
+-            console.log("B")
+-            break;
+-            case grade >= 70:
+-            console.log("C")
+-            break;
+-            case grade >= 60:
+-            console.log("D")
+-            break;
+-            default:
+-            console.log("강해져서 돌아와라");
+-        }
+-        </script>
+-<script>
+-                const cars2 = ["BMW", "Volvo", "Saab", "Ford", "Flat", "Audi"];
+-                let text2 = ''
+-                for (let i = 0; i < cars2.length; i++) {
+-                    //let i = 0 초기화식! i<cars2.length(길이) 몇개의 데이터가 들어있는지!
+-                    text2 += '<section><h2>' + cars2[i] + '</h2></section>'
+-                        //true 면 안에 있는 코드를 계속 실행한다. false가 될때 끝난다.
+-</script>
+-<!--                        증감이 있을땐 const 금지 !상수 변할 수 없는 값이기 때문에-->
+-<!--                    for (let i = 1; i < 10; i++) {-->
+-<!--                        document.write(`${5} x ${i} = ${5 * i} <br>`)-->
+-<!--                        //template literals `역따옴표-->
+-<!--                    }-->
+-
+-<!--                    for (var i = 2; i < 10; i++) {-->
+-<!--                        for (var j = 1; j < 10; j++) {-->
+-<!--                            document.write(`${i} X ${j} = ${i * j} <br>`);-->
+-<!--                        }-->
+-<!--                    }-->
+-<script>
+-    let i = 1;
+-    while(i <= 10) {
+-        i++;
+-        if (i === 4) {
+-            continue;
+-        } else if (i === 7) {
+-            continue;
+-        }
+-        console.log(i);
+-    }
+-    for (let i = 0; i < 20; i++) {
+-        if (i < 13) continue;
+-        console.log(i + '살은 청소년입니다.');
+-    }
+-
+-    let str1 = 'hello';
+-    let str2 = str1;
+-    console.log(str2); // 'hello'
+-
+-    str1 = 'world';
+-    console.log(str2);
+-
+-
+-    arr1[0] = 10;
+-    // arr1 = [10, 20];
+-    console.log(arr2);
+-
+-    // 비교해보세요.
+-    let value1 = 10;
+-    let value2 = value1;
+-    console.log(value2);
+-
+-    value1 = 20;
+-    console.log(value2);
+-
+-</script>
+-</body>
+-</html>
+\ No newline at end of file

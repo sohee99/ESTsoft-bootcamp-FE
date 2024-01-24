@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2581569-c348-441d-a278-cd6783a3d2ac" name="Changes" comment="FE 프로젝트 : 호두">
+      <change afterPath="$PROJECT_DIR$/hodu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/강사님 css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/강사님 코드.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hodu.css" beforeDir="false" afterPath="$PROJECT_DIR$/hodu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hodu.html" beforeDir="false" afterPath="$PROJECT_DIR$/hodu.html" afterDir="false" />
+    </list>
+    <list id="2751aebd-20c0-4f48-8bad-2f3e3b570a2a" name="FE프로젝트 - 호두페이지" comment="FE프로젝트 - 호두페이지" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sohee99&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6fa40878-6c62-495e-8a2e-662eb1839fc0" />
+        <option name="url" value="https://github.com/sohee99/est-html-study.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/1만 시간의 법칙.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2aTFkeEz84ZDVjM9FdLbtlhK3OS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript 디버그.1만 시간의 법칙.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 디버그.ajax.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.hodu.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/통마/HTML&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/새 스크래치 파일&quot;: [
+      &quot;HTML&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\통마\HTML" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="HTML" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="HTML" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hodu.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hodu.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.hodu.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2581569-c348-441d-a278-cd6783a3d2ac" name="Changes" comment="" />
+      <changelist id="2751aebd-20c0-4f48-8bad-2f3e3b570a2a" name="FE프로젝트 - 호두페이지" comment="" />
+      <created>1704334810230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704334810230</updated>
+      <workItem from="1704334811620" duration="474000" />
+      <workItem from="1704335301485" duration="174000" />
+      <workItem from="1704335493211" duration="10227000" />
+      <workItem from="1704412886357" duration="44108000" />
+      <workItem from="1704555503212" duration="1615000" />
+      <workItem from="1704607574325" duration="6074000" />
+      <workItem from="1704672029450" duration="8564000" />
+      <workItem from="1704767755165" duration="25633000" />
+      <workItem from="1704809175841" duration="925000" />
+      <workItem from="1704844746691" duration="5010000" />
+      <workItem from="1704876155759" duration="9741000" />
+      <workItem from="1704934137361" duration="24000" />
+      <workItem from="1704963821119" duration="21000" />
+      <workItem from="1704963858513" duration="7307000" />
+      <workItem from="1704980284654" duration="3512000" />
+      <workItem from="1705017393125" duration="1627000" />
+      <workItem from="1705024245694" duration="586000" />
+      <workItem from="1705029401624" duration="2642000" />
+      <workItem from="1705048235376" duration="243000" />
+      <workItem from="1705061933234" duration="12857000" />
+      <workItem from="1705276405082" duration="668000" />
+      <workItem from="1705321270281" duration="573000" />
+      <workItem from="1705363622816" duration="3669000" />
+      <workItem from="1705368462944" duration="37908000" />
+      <workItem from="1705416364319" duration="2242000" />
+      <workItem from="1705449841510" duration="31024000" />
+      <workItem from="1705536791908" duration="1337000" />
+      <workItem from="1705538153839" duration="1061000" />
+      <workItem from="1705539541202" duration="4394000" />
+      <workItem from="1705543974028" duration="707000" />
+      <workItem from="1705544699160" duration="9545000" />
+      <workItem from="1705575654215" duration="11720000" />
+      <workItem from="1705622245818" duration="3493000" />
+      <workItem from="1705626556826" duration="309000" />
+      <workItem from="1705661507022" duration="599000" />
+      <workItem from="1705742391899" duration="345000" />
+      <workItem from="1705742759924" duration="381000" />
+      <workItem from="1705801147636" duration="570000" />
+      <workItem from="1705801733103" duration="1037000" />
+      <workItem from="1706068549331" duration="349000" />
+      <workItem from="1706068915451" duration="664000" />
+      <workItem from="1706069959607" duration="541000" />
+      <workItem from="1706070566674" duration="801000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1704714609625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704714609625</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1704809035649</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704809035649</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1704810033597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704810033597</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1704852391139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704852391139</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1704963942035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704963942035</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1704964331360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704964331360</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1705321390428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705321390428</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1705321662952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705321662952</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1705412843824</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705412843824</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FE프로젝트 - 호두페이지">
+      <option name="closed" value="true" />
+      <created>1705413132425</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705413132425</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1만 시간의 법칙">
+      <option name="closed" value="true" />
+      <created>1705416747243</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705416747243</updated>
+    </task>
+    <task id="LOCAL-00012" summary="FE 프로젝트 : 호두">
+      <option name="closed" value="true" />
+      <created>1705489781036</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705489781036</updated>
+    </task>
+    <task id="LOCAL-00013" summary="FE 프로젝트 : 호두">
+      <option name="closed" value="true" />
+      <created>1705584641707</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705584641707</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FE프로젝트 - 호두페이지" />
+    <MESSAGE value="Changes" />
+    <MESSAGE value="1만 시간의 법칙" />
+    <MESSAGE value="FE 프로젝트 : 호두" />
+    <option name="LAST_COMMIT_MESSAGE" value="FE 프로젝트 : 호두" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
